@@ -1,7 +1,6 @@
 vias_sinalizacao
 
-Código em XML para importação no draw.io
-Elabora um fluxograma sobre vias de sinalização 
+Código em XML para importação no draw.io e elabora um fluxograma sobre vias de sinalização 
 
 > Abrir o draw.io
 > 
