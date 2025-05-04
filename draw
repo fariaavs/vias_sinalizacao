@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-05-04T12:30:00.000Z" agent="Mozilla/5.0 ..." etag="unique_etag" version="24.2.5" type="device">
+  <diagram name="Vias de Sinalização Celular" id="unique_diagram_id">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="p1_title" value="Via Proteína G (cAMP)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_gpcr" value="GPCR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_gprot" value="Proteína Gs/Gi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_ac" value="Adenilato Ciclase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_camp" value="cAMP" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_pka" value="PKA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p1_gpcr" target="p1_gprot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p1_gprot" target="p1_ac">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p1_ac" target="p1_camp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p1_camp" target="p1_pka">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2_title" value="Via Proteína G (PLC)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_gpcr" value="GPCR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_gprot" value="Proteína Gq" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_plc" value="Fosfolipase C (PLC)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_ip3dag" value="IP3 + DAG" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="820" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_pkc_ca" value="PKC + Ca2+" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p2_gpcr" target="p2_gprot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p2_gprot" target="p2_plc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p2_plc" target="p2_ip3dag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p2_ip3dag" target="p2_pkc_ca">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+
+        <mxCell id="p3_title" value="Via RTK-MAPK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_rtk" value="RTK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_adapt" value="Grb2/SOS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_ras" value="Ras" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_raf" value="Raf (MAPKKK)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_mek" value="MEK (MAPKK)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_erk" value="ERK (MAPK)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p3_rtk" target="p3_adapt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p3_adapt" target="p3_ras">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p3_arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p3_ras" target="p3_raf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p3_raf" target="p3_mek">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p3_mek" target="p3_erk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p4_title" value="Via TGF-β/Smad" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_tgfb" value="TGF-β" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="650" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_rec" value="Receptor TGF-β (I/II)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_rsmad" value="R-Smad (Smad2/3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_cosmad" value="Co-Smad (Smad4)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+         <mxCell id="p4_nuc" value="Núcleo (Transcrição)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p4_tgfb" target="p4_rec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p4_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p4_rec" target="p4_rsmad">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p4_arr3" value="+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="p4_arr4">
+            <mxGeometry x="-0.5" y="0" relative="1" as="geometry">
+                <mxPoint as="offset"/>
+            </mxGeometry>
+         </mxCell>
+        <mxCell id="p4_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p4_rsmad" target="p4_cosmad">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p4_arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p4_cosmad" target="p4_nuc">
+           <mxGeometry relative="1" as="geometry">
+               <mxPoint x="370" y="960" as="sourcePoint"/>
+           </mxGeometry>
+        </mxCell>
+
+
+        <mxCell id="p5_title" value="Via PI3K/Akt/mTOR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_rtk" value="RTK/GPCR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_pi3k" value="PI3K" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_pip3" value="PIP3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_akt" value="Akt (PKB)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_mtor" value="mTORC1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_out" value="Crescimento / Sobrevivência" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p5_rtk" target="p5_pi3k">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p5_pi3k" target="p5_pip3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p5_pip3" target="p5_akt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p5_akt" target="p5_mtor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p5_arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p5_mtor" target="p5_out">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p6_title" value="Apoptose Extrínseca" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_ligand" value="Ligante (FasL/TNF)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_receptor" value="Receptor Morte (Fas/TNFR1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_casp8" value="Caspase-8 (Iniciadora)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#d89f68;" vertex="1" parent="1">
+          <mxGeometry x="830" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_casp3" value="Caspase-3 (Efetora)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#d89f68;" vertex="1" parent="1">
+          <mxGeometry x="830" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_apopt" value="Apoptose" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p6_ligand" target="p6_receptor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p6_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p6_receptor" target="p6_casp8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p6_arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p6_casp8" target="p6_casp3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p6_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p6_casp3" target="p6_apopt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p7_title" value="Apoptose Intrínseca" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="560" width="160" height="30" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_stress" value="Estresse Celular" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="610" width="120" height="50" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_bcl2" value="Família Bcl-2 (Bax/Bak)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_mito" value="Mitocôndria" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+           <mxGeometry x="830" y="780" width="80" height="70" as="geometry"/>
+         </mxCell>
+         <mxCell id="p7_cytc" value="Citocromo c" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+           <mxGeometry x="820" y="880" width="100" height="40" as="geometry"/>
+         </mxCell>
+          <mxCell id="p7_casp9" value="Apoptossomo / Caspase-9" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#d89f68;" vertex="1" parent="1">
+           <mxGeometry x="830" y="950" width="80" height="80" as="geometry"/>
+         </mxCell>
+         <mxCell id="p7_casp3" value="Caspase-3 (Efetora)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#d89f68;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_apopt" value="Apoptose" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_stress" target="p7_bcl2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_bcl2" target="p7_mito">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_mito" target="p7_cytc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_cytc" target="p7_casp9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_casp9" target="p7_casp3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_arr6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_casp3" target="p7_apopt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
