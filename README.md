@@ -1,7 +1,10 @@
-# vias_sinalizacao
-## Código em XML para importação no draw.io
-## Elabora um fluxograma sobre vias de sinalização 
+vias_sinalizacao
 
-## Abrir o draw.io
-## Criar um arquivo novo
-## Importar de > GitHub
+Código em XML para importação no draw.io
+Elabora um fluxograma sobre vias de sinalização 
+
+> Abrir o draw.io
+> 
+> Criar um arquivo novo
+> 
+> Importar de > GitHub
