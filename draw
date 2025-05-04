@@ -212,3 +212,86 @@
          <mxCell id="p6_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p6_casp3" target="p6_apopt">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+
+<mxCell id="p7_title" value="Apoptose Intrínseca" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="560" width="160" height="30" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_stress" value="Estresse Celular" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="610" width="120" height="50" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_bcl2" value="Família Bcl-2 (Bax/Bak)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_mito" value="Mitocôndria" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+           <mxGeometry x="830" y="780" width="80" height="70" as="geometry"/>
+         </mxCell>
+         <mxCell id="p7_cytc" value="Citocromo c" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+           <mxGeometry x="820" y="880" width="100" height="40" as="geometry"/>
+         </mxCell>
+          <mxCell id="p7_casp9" value="Apoptossomo / Caspase-9" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#d89f68;" vertex="1" parent="1">
+           <mxGeometry x="830" y="950" width="80" height="80" as="geometry"/>
+         </mxCell>
+         <mxCell id="p7_casp3" value="Caspase-3 (Efetora)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#d89f68;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_apopt" value="Apoptose" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_stress" target="p7_bcl2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_bcl2" target="p7_mito">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_mito" target="p7_cytc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_cytc" target="p7_casp9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_casp9" target="p7_casp3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+         <mxCell id="p7_arr6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p7_casp3" target="p7_apopt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+
+
+<mxCell id="p8_title" value="Via Citoesqueleto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_ RhoGTPases" value="Rho GTPases (Rho, Rac, Cdc42)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1050" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_actin" value="Actina" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_myosin" value="Miosina" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_focaladhesion" value="Adesão Focal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_migration" value="Migração Celular" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p8_ RhoGTPases" target="p8_actin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p8_ RhoGTPases" target="p8_myosin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p8_actin" target="p8_focaladhesion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p8_myosin" target="p8_focaladhesion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#666666;" edge="1" parent="1" source="p8_focaladhesion" target="p8_migration">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
